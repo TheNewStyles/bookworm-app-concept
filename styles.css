@@ -1,15 +1,21 @@
+@font-face{
+	font-family: Ailerons;
+	src: url(Ailerons-Typeface.otf);
+}
+
 html{
-	
+	font-family: Ailerons;
 }
 
 body{
 	margin: 0;
 }
 
+/************ Banner ***********/
 .banner{
 	height: 100vh;
 	width: 100%;
-	background-color: #A0C1B9;
+	background-color: #E7DFC6;
 }
 
 .banner img{
@@ -21,3 +27,118 @@ body{
 	top: 50%;
 	transform: translate(-50%, -50%);
 }
+
+/************ Intro  ***********/
+.intro{
+	height: 450px;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 10%;
+	position: relative;
+}
+
+.main-image {
+	width: 40%;
+	float: left;
+	position: relative
+}
+
+.main-image img{
+	width: 50%;
+	margin: auto;
+	position: absolute;
+	left: 45%;
+	top: 90%;
+	transform: translate(-50%, -10%);
+}
+
+.main-info{
+	width: 60%;
+	float: right;
+	text-align: center;
+	color: #2274A5;
+
+}
+
+.main-info div{
+	margin: auto;
+	padding-top: 20%;	
+	padding-right: 25%;
+	padding-right: 25%;
+}
+
+.main-info h1{
+	font-size: 64px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.main-info p{
+	padding-right: 10%;
+	padding-left: 10%;
+	font-family: 'Exo', sans-serif;
+}
+
+/************ Color Pallete ***********/
+
+.color-scheme{
+	height: 60vh;
+	width: 100%;
+	float: clear;
+	position: relative;
+	font-family: 'Exo', sans-serif;
+	color: white;
+	text-align: right;	
+	font-size: 14px;
+}
+
+.color-scheme span{
+	font-family: 'Exo', sans-serif;
+	padding-right: 5px;
+}
+
+.main-color{
+	height: 100%; 
+	width: 65%;
+	float: left;
+	background-color: #131B23;
+	position: relative;
+}
+
+.color-hex-rgb{
+	position: absolute;
+    top: 70%;
+    right: 0px;
+}
+
+.main-color p{
+	position: absolute;
+    top: 89%;
+    right: 0px;    
+    padding-right: 5px;
+}
+
+.color-asset1{
+	width: 35%;
+	height: 33.33%;
+	float: right;
+	background-color: #E7DFC6;
+	position: relative;
+}
+
+.color-asset2{
+	width: 35%;
+	height: 33.33%;
+	float: right;
+	background-color: #816C61;
+	position: relative;
+}
+
+.color-asset3{
+	width: 35%;
+	height: 33.33%;
+	float: right;
+	background-color: #2274A5;
+	position: relative;
+}
+
