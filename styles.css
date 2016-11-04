@@ -30,17 +30,17 @@ body{
 
 /************ Intro  ***********/
 .intro{
-	height: 450px;
+	height: 80vh;
 	width: 100%;
 	background-color: white;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 	position: relative;
 }
 
 .main-image {
 	width: 40%;
 	float: left;
-	position: relative
+	position: relative;
 }
 
 .main-image img{
@@ -55,34 +55,73 @@ body{
 .main-info{
 	width: 60%;
 	float: right;
-	text-align: center;
-	color: #2274A5;
+	text-align: center;	
+	position: relative;
+	height: 100%;
+}	
 
-}
-
-.main-info div{
+.main-type{
 	margin: auto;
-	padding-top: 20%;	
-	padding-right: 25%;
-	padding-right: 25%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .main-info h1{
 	font-size: 64px;
 	font-weight: 600;
 	margin-bottom: 5px;
+	color: #2274A5;
 }
 
 .main-info p{
-	padding-right: 10%;
-	padding-left: 10%;
 	font-family: 'Exo', sans-serif;
+	color: #131B23;
+}
+
+/************ Ideation ***********/
+
+.ideation{
+	width: 100%;
+	position: relative;	
+	margin-bottom: -1%;
+}
+
+.ideation img{
+	width: 100%;	
+}
+
+.ideation-container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;	
+	text-align: center;
+	background-color: rgba(231, 223, 198, 0.8);
+	border-radius: 1%;
+	padding-bottom: 0.67em;
+}
+
+.ideation-container h1{
+	font-family: Ailerons;
+	font-size: 64px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #2274A5;
+	margin-top: 0.3em;
+}
+
+.ideation-container p{
+	font-family: 'Exo', sans-serif;
+	color: #131B23;
 }
 
 /************ Color Pallete ***********/
 
 .color-scheme{
-	height: 60vh;
+	height: 80vh;
 	width: 100%;
 	float: clear;
 	position: relative;
@@ -109,6 +148,7 @@ body{
 	position: absolute;
     top: 70%;
     right: 0px;
+    transform: translate(-20%, -50%);
 }
 
 .main-color p{
@@ -116,6 +156,7 @@ body{
     top: 89%;
     right: 0px;    
     padding-right: 5px;
+    transform: translate(-20%, -50%);
 }
 
 .color-asset1{
