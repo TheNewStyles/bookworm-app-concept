@@ -11,6 +11,19 @@ body{
 	margin: 0;
 }
 
+h1{
+	font-size: 64px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #2274A5;
+	font-family: Ailerons;
+}
+
+p{
+	font-family: 'Exo', sans-serif;
+	color: #131B23;
+}
+
 /************ Banner ***********/
 .banner{
 	height: 100vh;
@@ -63,23 +76,11 @@ body{
 .main-type{
 	margin: auto;
 	position: absolute;
+	width: 70%;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 }
-
-.main-info h1{
-	font-size: 64px;
-	font-weight: 600;
-	margin-bottom: 5px;
-	color: #2274A5;
-}
-
-.main-info p{
-	font-family: 'Exo', sans-serif;
-	color: #131B23;
-}
-
 /************ Ideation ***********/
 
 .ideation{
@@ -105,17 +106,86 @@ body{
 }
 
 .ideation-container h1{
-	font-family: Ailerons;
-	font-size: 64px;
-	font-weight: 600;
-	margin-bottom: 5px;
-	color: #2274A5;
 	margin-top: 0.3em;
 }
 
-.ideation-container p{
-	font-family: 'Exo', sans-serif;
-	color: #131B23;
+/************ Wireframes ***********/
+
+.wireframes{
+	height: 250vh;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.wireframes-banner{
+	height: 100vh;
+	width: 100%;
+	background-color: #131B23;
+	position: relative;
+}
+
+.wireframes-type{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.wireframes-type p{
+	color: white;
+}
+
+.wireframes-images{
+
+}
+
+#log-in{
+	position: absolute;
+	width: 20%;
+	top: 40%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+}
+
+#sign-up{
+	position: absolute;
+	width: 20%;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#create-profile{
+	position: absolute;
+	width: 20%;
+	top: 44%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+}
+
+#rec-books{
+	position: absolute;
+	width: 20%;
+	top: 76%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+}
+
+#book-info{
+	position: absolute;
+	width: 20%;
+	top: 78%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#chat{
+	position: absolute;
+	width: 20%;
+	top: 80%;
+	left: 80%;
+	transform: translate(-50%, -50%);
 }
 
 /************ Color Pallete ***********/
