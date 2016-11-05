@@ -140,7 +140,9 @@ p{
 
 }
 
-#log-in{
+
+/* layout for mocks (wireframes and hifi) */
+.log-in{
 	position: absolute;
 	width: 20%;
 	top: 40%;
@@ -148,7 +150,7 @@ p{
 	transform: translate(-50%, -50%);
 }
 
-#sign-up{
+.sign-up{
 	position: absolute;
 	width: 20%;
 	top: 42%;
@@ -156,7 +158,7 @@ p{
 	transform: translate(-50%, -50%);
 }
 
-#create-profile{
+.create-profile{
 	position: absolute;
 	width: 20%;
 	top: 44%;
@@ -164,7 +166,7 @@ p{
 	transform: translate(-50%, -50%);
 }
 
-#rec-books{
+.rec-books{
 	position: absolute;
 	width: 20%;
 	top: 76%;
@@ -172,7 +174,7 @@ p{
 	transform: translate(-50%, -50%);
 }
 
-#book-info{
+.book-info{
 	position: absolute;
 	width: 20%;
 	top: 78%;
@@ -180,7 +182,7 @@ p{
 	transform: translate(-50%, -50%);
 }
 
-#chat{
+.chat{
 	position: absolute;
 	width: 20%;
 	top: 80%;
@@ -188,7 +190,7 @@ p{
 	transform: translate(-50%, -50%);
 }
 
-/************ Color Pallete ***********/
+/************ Branding ***********/
 
 .branding{
 	height: 140vh;
@@ -296,3 +298,38 @@ p{
 	position: relative;
 }
 
+/************ Hifi Mocks ***********/
+
+.hifi-mocks{
+	height: 250vh;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.hifi-banner{
+	height: 100vh;
+	width: 100%;
+	background-color: #E7DFC6;
+	position: relative;
+}
+
+.hifi-type{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/************ Real world photoshops ***********/
+
+.real-mocks{
+	width: 100%;
+}
+
+.real-mocks img{
+	margin: auto;
+	display: block;
+	width: 100%;
+}
