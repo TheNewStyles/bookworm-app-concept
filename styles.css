@@ -333,3 +333,96 @@ p{
 	display: block;
 	width: 100%;
 }
+
+/* Media queries */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 720px) {
+	h1{
+		font-size: 45px;
+	}
+	.intro{
+		height: 350px;
+	}
+
+	.banner img{
+		width: 95%;
+	}
+	.main-image{
+		display: block;
+		width: 100%;		
+	}
+	.main-image img{
+		position: relative;
+		left: 50%;
+	}
+	.main-info{
+		display: block;
+		width: 100%;	
+		padding-bottom: 55px;	
+		float: right;	
+	}
+	.main-type{
+		width: 90%;
+		display: block;
+		position: relative;
+		left: 50%;
+		margin: 5px;
+	}
+	.ideation img{
+		display: block;
+		position: relative;
+		clear: both;
+
+	}
+	.ideation-container{
+		position: relative;
+		padding-top: 0.67em;
+		top: 0;
+		left: 0;
+		transform: translate(0, 0);
+		clear: both;
+		padding-bottom: 65px; 
+		padding-top: 45px;		
+	}
+	.ideation-container p{
+		margin: 2.5%;
+	}
+
+	.wireframes{
+		float: right;
+		height: auto;
+	}
+	.wireframes-banner{
+		height: 300px;
+	}
+
+	.wireframes-type{
+		top: 0;
+		left: 0;
+    	transform: translate(0, 0);
+    	padding-top: 7.5%;
+    	padding-bottom: 15%;
+    	margin: 2.5%;
+	}
+
+	.wireframes-images img{
+		position: relative;
+		width: 60%;
+		left: 0;
+		top: 5px;
+		transform: translate(0, 0);
+	}
+
+	.branding{
+		clear: both;
+		height: 650px;
+	}
+
+	.branding-type{
+		top: 0;
+		left: 0;
+    	transform: translate(0, 0);
+    	margin: 2.5%;
+	}
+
+}
