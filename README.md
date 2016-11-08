@@ -1,2 +1,2 @@
 # bookworm-app-concept
-Mobile app concept
+This is a mobile app concept I came up with. The goal was to show my design process from ideation to high fidelity mockups. I also created this template to display the design but it is still a work in progess. Check it out live at https://thenewstyles.github.io/bookworm-app-concept/ Thanks for looking!
